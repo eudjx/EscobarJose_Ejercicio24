@@ -1,4 +1,4 @@
-walk.png : walk.py walk.dat
+friccion.png : walk.py walk.dat
 	python walk.py
 
 
@@ -12,4 +12,4 @@ walk.x : walk.cpp
 	c++ walk.cpp -o walk.x
 	
 clean : 
-	rm walk.x walk.dat walk.png
+	rm walk.x walk.dat friccion.png
